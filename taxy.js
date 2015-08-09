@@ -59,13 +59,5 @@ module.exports = function () {
         });
         return yield completion.future();
     };
-    
-    function* bar(message, n) {
-        for (var i = 0; i < n; ++i) {
-            console.log(message + ": " + i);
-            yield taxy.nextTick();
-        }
-        return message;
-    }
     return taxy;
 } ();

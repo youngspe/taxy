@@ -9,7 +9,7 @@ module.exports = function () {
     
     var taxy = clone(galaxy);
     
-    taxy.nextTick = taxy.star(process.nextTick);
+    taxy.rest = taxy.star(setImmediate);
     
     taxy.delay = taxy.star(function (ms, callback) {
         setTimeout(function () {

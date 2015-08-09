@@ -1,6 +1,8 @@
 # taxy
 Taxy is an extension of [galaxy](https://github.com/bjouhier/galaxy) that adds additional functionality similar to that of .NET. Taxy inherits the entire set of functionality provided by galaxy in addition to its own.
 
+NOTE: node must be run with `--harmony`. In order to use taxy as it uses ES6 features.
+
 ## Classes
 ### `taxy.completion`
 A class that creates a `future` that returns when the `complete` method is called. Comparable to .NET's `TaskCompletionSource`.
@@ -88,7 +90,7 @@ After
 ```
 
 ### `taxy.whenAll(futures)`
-Returns after all given `future` objects have completed.
+Returns after all given `future` objects have completed. Comparable to  .NET's `Task.WhenAll`.
 
 #### Return value
 An array consisting of the results of all of the given futures.
@@ -133,7 +135,7 @@ whenAll completed. Result: foo,bar
 ```
 
 ### `taxy.whenAny(futures)`
-Returns after the first of the given `future` objects has completed.
+Returns after the first of the given `future` objects has completed. Comparable to  .NET's `Task.WhenAny`.
 
 #### Return value
 The result of the first future to complete.

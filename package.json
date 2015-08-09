@@ -1,0 +1,23 @@
+{
+  "name": "taxy",
+  "version": "0.1.0",
+  "description": "taxy is an extension of galaxy that adds additional functionality similar to that of C#",
+  "main": "taxy.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/youngspe/taxy.git"
+  },
+  "author": "youngspe",
+  "dependencies": {
+    "galaxy": "^0.1.12"
+  },
+  "engines": {
+    "node": ">=0.11.10"
+  },
+  "bugs": {
+    "url": "https://github.com/youngspe/taxy/issues"
+  },
+  "homepage": "https://github.com/youngspe/taxy",
+  "scripts": {},
+  "license": "MIT"
+}

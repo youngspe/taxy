@@ -9,7 +9,8 @@
   },
   "author": "youngspe",
   "dependencies": {
-    "galaxy": "^0.1.12"
+    "galaxy": "^0.1.12",
+    "setimmediate2": "^1.1.4"
   },
   "engines": {
     "node": ">=0.11.10"

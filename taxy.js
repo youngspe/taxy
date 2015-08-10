@@ -1,4 +1,5 @@
 ﻿var galaxy = require('galaxy');
+require('setimmediate2');
 
 module.exports = function () {
     //cloning an object per http://stackoverflow.com/a/3774429

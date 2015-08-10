@@ -1,6 +1,6 @@
 {
   "name": "taxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "taxy is an extension of galaxy that adds additional functionality similar to that of C#",
   "main": "taxy.js",
   "repository": {
